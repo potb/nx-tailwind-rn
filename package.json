@@ -29,6 +29,7 @@
     "@types/react-native": "0.66.11",
     "@typescript-eslint/eslint-plugin": "~5.10.0",
     "@typescript-eslint/parser": "~5.10.0",
+    "concurrently": "^7.0.0",
     "eslint": "~8.7.0",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-import": "2.25.2",
@@ -39,11 +40,14 @@
     "metro": "0.66.2",
     "metro-react-native-babel-preset": "0.66.2",
     "metro-resolver": "0.66.2",
+    "postcss": "^8.4.6",
     "prettier": "^2.5.1",
     "react-native-config": "1.4.5",
     "react-native-svg": "12.1.1",
     "react-native-svg-transformer": "1.0.0",
     "react-test-renderer": "17.0.2",
+    "tailwind-rn": "^4.0.1",
+    "tailwindcss": "^3.0.18",
     "typescript": "~4.5.2"
   }
 }

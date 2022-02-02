@@ -15,6 +15,13 @@
         "command": "nx start mobile"
       }
     },
+    "tailwind": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "cwd": "apps/mobile",
+        "command": "concurrently \"tailwindcss --input input.css --output tailwind.css --no-autoprefixer --watch\" \"tailwind-rn --watch\""
+      }
+    },
     "run-ios": {
       "executor": "@nrwl/react-native:run-ios",
       "options": {}
